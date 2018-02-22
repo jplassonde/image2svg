@@ -106,7 +106,6 @@ def main(inputFile):
                                         (shade4 if px < shade5 else
                                         (shade5 if px < shade6 else 255)))))
 
-
     # Convert image to array
     image = np.asarray(image)
 
